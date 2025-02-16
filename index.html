@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ส่วนตัว</title>
+    <!-- เรียกใช้งาน Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5" id="home">
+        <div class="container">
+            <h1>สวัสดี! ฉันคือ [ชื่อของคุณ]</h1>
+            <p class="lead">นักพัฒนาเว็บไซต์และผู้เชี่ยวชาญด้านดิจิทัลมาร์เก็ตติ้ง</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <h2 class="text-center">เกี่ยวกับฉัน</h2>
+            <p class="text-center">ฉันเป็นอาจารย์และผู้เชี่ยวชาญด้าน Digital Business Computing มีประสบการณ์ในการพัฒนาเว็บไซต์และการตลาดดิจิทัล</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="bg-light py-5" id="portfolio">
+        <div class="container">
+            <h2 class="text-center">ผลงานของฉัน</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x250" class="card-img-top" alt="ผลงาน 1">
+                        <div class="card-body">
+                            <h5 class="card-title">โปรเจค 1</h5>
+                            <p class="card-text">รายละเอียดโปรเจคสั้น ๆ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x250" class="card-img-top" alt="ผลงาน 2">
+                        <div class="card-body">
+                            <h5 class="card-title">โปรเจค 2</h5>
+                            <p class="card-text">รายละเอียดโปรเจคสั้น ๆ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/350x250" class="card-img-top" alt="ผลงาน 3">
+                        <div class="card-body">
+                            <h5 class="card-title">โปรเจค 3</h5>
+                            <p class="card-text">รายละเอียดโปรเจคสั้น ๆ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center">ติดต่อฉัน</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">ชื่อ</label>
+                    <input type="text" class="form-control" id="name" placeholder="กรอกชื่อของคุณ">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">อีเมล</label>
+                    <input type="email" class="form-control" id="email" placeholder="กรอกอีเมลของคุณ">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">ข้อความ</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="กรอกข้อความของคุณ"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2025 MyPortfolio | สร้างโดย [ชื่อของคุณ]</p>
+    </footer>
+
+    <!-- เรียกใช้ Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
